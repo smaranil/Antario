@@ -206,7 +206,9 @@ void Aimbot::RenderTab()
 					UI::UpdateWeaponSettings();
 				SetTooltip("Delays aimbot snap to the other target after a kill");
 
-				if (ImGui::Checkbox("Basic Hit Scan", &hitScan))
+				//FIXME: Broken and I'm not going to fix it. For some1 editing it in the future.
+
+				/*if (ImGui::Checkbox("Basic Hit Scan", &hitScan))
 				 	UI::UpdateWeaponSettings();
 				SetTooltip("Scans for visible bones to shoot. May lower your FPS.");
 				
@@ -225,7 +227,7 @@ void Aimbot::RenderTab()
 
 					ImGui::EndPopup();
 				}
-				ImGui::PopStyleVar();
+				ImGui::PopStyleVar();*/
 
 			}
 			ImGui::NextColumn();
