@@ -1,3 +1,7 @@
+## DETECTED
+
+Since 06.06.2017 all Aimtux forks and Aimtux itself are detected. I wouldnt recommend using this as it brings some risks (untrusted bans).
+
 ## DISCONTINUED
 
 If you want to use this one, feel free to do so, but I am not updating it anymore.
